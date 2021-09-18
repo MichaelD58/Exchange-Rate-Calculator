@@ -12,9 +12,11 @@ Given a list of currency pair quotations calculate the provided exchange rate.
 If the requested currency pairs are the same, for example, USDUSD, then the exchange rate is always 1.00
 
 Likewise if you have a rate for USDGBP and you need GBPUSD then you can invert the rate to obtain the exchange rate.
+
 Input:
 
 A list of currency exchange rates separated by ';'. A currency pair to calculate separated by '|' from the rest of the input.
+
 Output:
 
 Calculated exchange rate for the provided currency pair. Required precision is 2 decimal points.
